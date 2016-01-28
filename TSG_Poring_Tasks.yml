@@ -1,0 +1,257 @@
+TSG_Porting:
+    name:   porting as MTG V3.0 Features
+    begin:  2016-
+    end:    2016-
+    tasks:  xx
+
+PTP_Feature:
+    PTP_Daemon:
+        comments: xxx
+        involvedModules:    PTP opensource code ...
+        estimation:     xx days
+        complete:       0%
+        source_file:    .cpp .h
+        owner:  xxx
+    PTP_UI:
+        comments: xxx
+        involvedModules:    SilverLight FrontPanel
+        estimation:     xx days
+        complete:       0%
+        source_file:    .cpp .h
+        owner:  xxx
+    PTP_Profiles:
+        comments: xxx
+        involvedModules:    ST2059-1/2
+        estimation:     xx days
+        complete:       0%
+        source_file:    .cpp .h
+        owner:  xxx
+    # other related module
+
+UI_Consistency:
+    new_added_features:
+        comments: xxx
+        involvedModules:    menu tree
+        estimation:     xx days
+        complete:       0%
+        source_file:    .cpp .h
+        owner:  xxx
+    level_adjustment:
+        comments: xxx
+        involvedModules:    menu tree
+        estimation:     xx days
+        complete:       0%
+        source_file:    .cpp .h
+        owner:  xxx
+    bugfix_Siverlight:
+        comments: xxx
+        involvedModules:    menu tree
+        estimation:     xx days
+        complete:       0%
+        source_file:    .cpp .h
+        owner:  xxx
+    bugfix_FrontPanel:
+        comments: xxx
+        involvedModules:    menu tree
+        estimation:     xx days
+        complete:       0%
+        source_file:    .cpp .h
+        owner:  xxx
+
+RootFS_Consistency:
+    startupFlow:
+        comments: xxx
+        involvedModules:    rootfs tools applications scripts
+        estimation:     xx days
+        complete:       0%
+        source_file:    .cpp .h .sh
+        owner:  xxx
+    upgradeFlow:
+        comments: xxx
+        involvedModules:    scripts
+        estimation:     xx days
+        complete:       0%
+        source_file:    .cpp .h .sh
+        owner:  xxx
+    factoryRecallFlow:
+        comments: xxx
+        involvedModules:    applications scripts
+        estimation:     xx days
+        complete:       0%
+        source_file:    .cpp .h .sh
+        owner:  xxx
+
+Peformance_Promotion:
+    architectural:
+        comments: xxx
+        involvedModules:    all
+        estimation:     xx days
+        complete:       0%
+        source_file:    .cpp .h
+        owner:  xxx
+    functional:
+        comments: xxx
+        involvedModules:    functions
+        estimation:     xx days
+        complete:       0%
+        source_file:    .cpp .h
+        owner:  xxx
+    algorithmic:
+        comments: xxx
+        involvedModules:    algorithm
+        estimation:     xx days
+        complete:       0%
+        source_file:    .cpp .h
+        owner:  xxx
+
+Bug_Fix:
+    P2_Bugs:
+        FB123473:
+            comments: GPS_IN cannot be locked.
+            involvedModules:    gps input and inner process.
+            estimation:     xx days
+            complete:       0%
+            source_file:    .cpp .h
+            owner:  xxx
+        FB123726-:
+            comments: SYNC output alignment FB123771 FB124100.
+            involvedModules:    time proc modules sync
+            estimation:     xx days
+            complete:       0%
+            source_file:    .cpp .h
+            owner:  xxx
+        FB124131:
+            comments: VITC input and inner process.
+            involvedModules:    time proc modules ltc
+            estimation:     xx days
+            complete:       0%
+            source_file:    .cpp .h
+            owner:  xxx
+        FB123770:
+            comments: LTC input and inner process.
+            involvedModules:    time proc modules vitc
+            estimation:     xx days
+            complete:       0%
+            source_file:    .cpp .h
+            owner:  xxx
+    P3_Bugs:
+        FB69470-:
+            comments: ENET connection dhcp or static ip
+            involvedModules:    uberbrain modemanager
+            estimation:     xx days
+            complete:       0%
+            source_file:    .cpp .h
+            owner:  xxx
+        FB99080-:
+            comments: data format to timecode
+            involvedModules:    time proc
+            estimation:     xx days
+            complete:       0%
+            source_file:    .cpp .h
+            owner:  xxx
+        FB122330-:
+            comments: timebase switch
+            involvedModules:    time proc
+            estimation:     xx days
+            complete:       0%
+            source_file:    .cpp .h
+            owner:  xxx
+        FB122383-:
+            comments: Silverlight Block Diagram
+            involvedModules:    silverlight
+            estimation:     xx days
+            complete:       0%
+            source_file:    silverlight c\#
+            owner:  Tina
+        FB122384-:
+            comments: UI consistency
+            involvedModules:    parameter ccsp menu alarm
+            estimation:     xx days
+            complete:       0%
+            source_file:    .xls
+            owner:  Joe
+        FB122385-:
+            comments: log operation style timestamp
+            involvedModules:    log syslog
+            estimation:     xx days
+            complete:       0%
+            source_file:    .cpp .h
+            owner:  xxx
+        FB122395-:
+            comments: PTP master slave daemon
+            involvedModules:    ptp daemon and time proc ptp
+            estimation:     xx days
+            complete:       0%
+            source_file:    .cpp .h
+            owner:  xxx
+        FB122401-:
+            comments: VITC REF process
+            involvedModules:    time proc
+            estimation:     xx days
+            complete:       0%
+            source_file:    .cpp .h
+            owner:  xxx
+        FB122403-:
+            comments: Presets, Parameter default value, FactoryRecall
+            involvedModules:    preset xdef library, init process, factory recall
+            estimation:     xx days
+            complete:       0%
+            source_file:    .cpp .h
+            owner:  xxx
+        FB122751-:
+            comments: SNMP issues
+            involvedModules:    snmp issues
+            estimation:     xx days
+            complete:       0%
+            source_file:    .cpp .h
+            owner:  xxx
+        FB123014-:
+            comments: SYNC follow process
+            involvedModules:    time proc
+            estimation:     xx days
+            complete:       0%
+            source_file:    .cpp .h
+            owner:  xxx
+        FB123362-:
+            comments: all alarm related issues
+            involvedModules:    alarms
+            estimation:     xx days
+            complete:       0%
+            source_file:    .cpp .h
+            owner:  xxx
+        FB123669-:
+            comments: 10 MHz IN process
+            involvedModules:    time proc and alarms
+            estimation:     xx days
+            complete:       0%
+            source_file:    .cpp .h
+            owner:  Joe
+        FB123712-:
+            comments: Parameter consistency
+            involvedModules:    parameter ccsp menu
+            estimation:     xx days
+            complete:       0%
+            source_file:    .xls
+            owner:  xxx
+        FB88519-:
+            comments: GPS_IN process
+            involvedModules:    time proc gps
+            estimation:     xx days
+            complete:       0%
+            source_file:    .xls
+            owner:  xxx
+        FB116009-:
+            comments: tooltips for Silverlight
+            involvedModules:    ccsp parameter
+            estimation:     xx days
+            complete:       0%
+            source_file:    .xls
+            owner:  xxx
+    P4_Bugs:
+        FB65031:
+            comments: Silverlight no model number
+            involvedModules:    silverlight
+            estimation:     xx days
+            complete:       0%
+            source_file:    silverlight
+            owner:  xxx
